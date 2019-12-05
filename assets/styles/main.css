@@ -7926,8 +7926,9 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 {
-  background: url(../images/hero/backdrop_city.jpg);
+  background: url(../images/hero/backdrop_street.jpg);
   background-size: cover;
+  background-position: right;
 }
 
 .fs-slide-1 .bg-overlay {
@@ -7953,8 +7954,9 @@ form .input-error-2:focus {
 }
 
 .fs-slide-2 {
-  background: url(../images/hero/backdrop_wed.jpg);
+  background: url(../images/hero/backdrop_guam.jpg);
   background-size: cover;
+  background-position:center;
 }
 
 .fs-slide-2 .bg-overlay {
@@ -7984,8 +7986,9 @@ form .input-error-2:focus {
 }
 
 .fs-slide-3 {
-  background: url(../images/hero/backdrop_camp.jpg);
+  background: url(../images/hero/backdrop_darwin.jpg);
   background-size: cover;
+  background-position:center;
 }
 
 .fs-slide-3 .bg-overlay {
@@ -8010,60 +8013,6 @@ form .input-error-2:focus {
 }
 
 .fs-slide-3 .hero-content .hero-subheading {
-  margin-top: 100px;
-  margin-bottom: 20px;
-  color: #999;
-}
-
-.fs-slide-4 {
-  background: url(../images/hero/backdrop_street.jpg);
-  background-size: cover;
-}
-
-.fs-slide-4 .bg-overlay {
-  background: rgba(17, 17, 17, 0.5);
-}
-
-.fs-slide-4 .hero-content {
-  text-align: center;
-}
-
-.fs-slide-4 .hero-content .hero-lead {
-  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 6em;
-  font-weight: 800;
-  letter-spacing: 5px;
-  color: #ececec;
-}
-
-.fs-slide-4 .hero-content .hero-subheading {
-  margin-top: 100px;
-  margin-bottom: 20px;
-  color: #999;
-}
-
-.fs-slide-5 {
-  background: url(../images/hero/backdrop_town.jpg);
-  background-size: cover;
-}
-
-.fs-slide-5 .bg-overlay {
-  background: rgba(17, 17, 17, 0.5);
-}
-
-.fs-slide-5 .hero-content {
-  text-align: center;
-}
-
-.fs-slide-5 .hero-content .hero-lead {
-  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 6em;
-  font-weight: 800;
-  letter-spacing: 5px;
-  color: #ececec;
-}
-
-.fs-slide-5 .hero-content .hero-subheading {
   margin-top: 100px;
   margin-bottom: 20px;
   color: #999;
