@@ -7926,9 +7926,9 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 {
-  background: url(../images/hero/backdrop_street.jpg);
+  background: url(../images/hero/backdrop_mbs.jpg);
   background-size: cover;
-  background-position: right;
+  background-position: center;
 }
 
 .fs-slide-1 .bg-overlay {
@@ -7954,9 +7954,9 @@ form .input-error-2:focus {
 }
 
 .fs-slide-2 {
-  background: url(../images/hero/backdrop_guam.jpg);
+  background: url(../images/hero/backdrop_street.jpg);
   background-size: cover;
-  background-position:center;
+  background-position: right;
 }
 
 .fs-slide-2 .bg-overlay {
