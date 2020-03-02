@@ -3966,7 +3966,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-hover-item .ft-2 {
-  background: url(../../assets/images/bridge-2.jpg);
+  background: url(../../assets/images/mountain.jpg);
   background-size: 100%;
   background-position: 50%;
 }
@@ -4197,7 +4197,7 @@ fieldset[disabled] .form-control:hover {
 /* ---- 10.1 Circle Counters ---- */
 .circles-counters, .circles-counters-dark-bg {
   position: relative;
-  background: #ccc url(../../assets/images/sea-1.jpg);
+  background: #ccc url(../../assets/images/hill.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
