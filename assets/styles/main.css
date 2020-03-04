@@ -320,6 +320,11 @@ hr {
   padding-bottom: 100px;
 }
 
+.mini-section {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
 .section-heading h1,
 .section-heading .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer,
 .comingsoon .content-wrapper .content-inner .cs-timer .item .section-heading .nbr-timer, .section-heading h2,
@@ -577,6 +582,7 @@ hr {
 }
 
 /* ---- Section Headings ---- */
+
 .sec-heading {
   margin-bottom: 100px;
   text-align: center;
