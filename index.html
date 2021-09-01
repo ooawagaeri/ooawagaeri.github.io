@@ -57,10 +57,6 @@
         })(window,document,'script','dataLayer','GTM-MH7TSF');</script>
         <!-- End Google Tag Manager -->
 
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
 
         <!-- ========== Preloader ========== -->
 
@@ -157,9 +153,9 @@
 
             <div class="col-md-offset-2 col-md-8 text-center ws-m">
               <p>My name is Timothy Chua, and I am an aspiring software developer whose passion is also photography.</p>
-              <p>As of 2020, I am at the age of 22 and am currently pursuing a degree of Computer Science at National University of Singapore.</p>
+              <p id='year'>As of [YEAR], I am at the age of [AGE] and am currently pursuing a degree of Computer Science at National University of Singapore.</p>
               <p>Graduated in 2018, with a Diploma in Information Technology at Ngee Ann Polytechnic; Specializing in Solution Architect.</p>
-              <p>This page features both my work and hobby throughout my academic and National Service period.</p>
+              <p>This page features both my work and hobby throughout my academic and National Service journey.</p>
               <p><br>"Let us be the best version of ourselves, the real you!"</p>
             </div>
 
@@ -186,27 +182,43 @@
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                   <span class="linea-ecommerce-graph2"></span>
                   <h4>New Creation Church</h4>
-                  <p>Programmer, Engineerer, Researcher. At NCC, I was tasked with the investigation and research of new and upcoming solutions which the industry is current using or have yet to explore. Python web forms, to messaging broadcast solutions and even legacy systems.</p>
+                  <p><b>SOFTWARE ENGINEER</b></p>
+                  <p>Involved in the development of multiple IT solutions:</p><br/>
+                  <ul>
+                    <li>Implemented a web application site using a Django backend and hosted on AWS Elastic Beanstalk.</li>
+                    <li>Integrated GCP Cloud Functions and Pub/Sub solutions with Brushfire, extracting event data into data lakes.</li>
+                    <li>Developed a Speech-To-Text system using Google's Speech-To-Text API and Django webapp.</li>
+                 </ul>
                 </div>
               </div>
 
-              <!-- Item 2 -->
+                <!-- Item 2 -->
               <div class="col-lg-4 col-md-6 mb-sm-50">
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                  <span class="linea-ecommerce-cart"></span>
-                  <h4>EL Print Pte Ltd</h4>
-                  <p>Packer, Receptionist, Clerk. A one-stop t-shirt printing solution for institutions, corporations, organisations, and individuals alike. My role involves me receiving, shiping, digitalizing and delivering your printed shirts for you.</p>
+                  <span class="linea-music-microphone-old"></span>
+                  <h4>Center For Strategic InfoComm Technologies</h4>
+                  <p><b>DATA SCIENCE INTERN</b></p>
+                  <p>Conducted research and developement of MINDEF's cutting-edge technologies:</p><br/>
+                  <ul>
+                    <li>Collaborated with other interns on the research and developement of a Speech-To-Text system using Kaldi Automatic Speech Recognition, and implemented its speech processing subsystem.</li>
+                  </ul>
                 </div>
               </div>
 
               <!-- Item 3 -->
               <div class="col-lg-4 col-md-6 mb-sm-50">
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                  <span class="linea-music-microphone-old"></span>
-                  <h4>Center For Strategic InfoComm Technologies</h4>
-                  <p>At MINDEF agency for IT research and development. Aimed to improve and protect the interest of our nation through cyber means. Such as machine learning speech to text systems, data visualization, and networking.</p>
+                  <span class="linea-ecommerce-cart"></span>
+                  <h4>EL Print Pte Ltd</h4>
+                  <p><b>RECEPTIONIST</b></p>
+                  <p>Assisted in the daily operations and customer service management at EL:</p><br/>
+                  <ul>
+                    <li>Involved in the shipment and packaging of t-shirts and corporal gifts.</li>
+                    <li>Handled the receptionist desk and public phone line, answering queries and assisting walk-in customers.</p>
+                  </ul>
                 </div>
               </div>
+
             </div>
 
             <div class="row mini-section">
@@ -216,7 +228,16 @@
                 <span class="subheading">Qualifications . Institutes . Certification</span>
               </header>
 
-              <!-- Item 4 -->
+            <!-- Item 2 -->
+              <div class="col-lg-4 col-md-6 mb-sm-50">
+                <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                  <span class="linea-basic-laptop"></span>
+                  <h4>Bachelor of Computing in Computer Science</h4>
+                  <p>Currently pursuing at National University Singapore ... The school of computing equips students in the field of software engineering, Unix development, and covers topics such as Data Structures & Algorithms, Operation Systems and interdisciplinary studies.</p>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
               <div class="col-lg-4 col-md-6 mb-sm-50">
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                   <span class="linea-basic-todolist-pen"></span>
@@ -225,12 +246,13 @@
                 </div>
               </div>
 
-              <!-- Item 5 -->
+              <!-- Item 3 -->
               <div class="col-lg-4 col-md-6 mb-sm-50">
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                   <span class="linea-basic-clock"></span>
                   <h4>GCE O' Level</h4>
-                  <p>Monfort Secondary School, from 2011 to 2014. Normal Acedamic student turned Express stream after the first year of schooling. My school motto, "Age Quod Agis” which translates to “Do Well In Whatever You Do' in Latin.</p>                </div>
+                  <p>Monfort Secondary School, from 2011 to 2014. Normal Acedamic turned Express student after the first year of schooling. My school's motto, "Age Quod Agis” which translates to “Do Well In Whatever You Do' in Latin.</p>
+                </div>
               </div>
 
             </div>
@@ -471,7 +493,8 @@
         <script src="assets/js/vendor/jquery.mb.YTPlayer.min.js"></script>
         <script src="assets/js/vendor/jquery.ajaxchimp.js"></script>
 
-        <!-- Definity JS -->
+
+        <!-- Peronal JS -->
         <script src="assets/js/main.js"></script>
         <script src="assets/contact-form/ajax-cf-1.js"></script>
     </body>
