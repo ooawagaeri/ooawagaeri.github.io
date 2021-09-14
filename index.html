@@ -47,16 +47,6 @@
         <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar">
-        <!-- Google Tag Manager -->
-        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MH7TSF"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-MH7TSF');</script>
-        <!-- End Google Tag Manager -->
-
 
         <!-- ========== Preloader ========== -->
 
@@ -138,7 +128,11 @@
               </div><!-- / .bg-overlay -->
             </div><!-- / .fs-slide-3 -->
           </div><!-- / .fs-slider -->
-
+          <a href="#aboutme" class="scroller scroller-dark">
+              <span class="scroller-text">scroll down</span>
+              <span class="linea-basic-magic-mouse"></span>
+            </a>
+        </div>
         <!-- ========== Welcome ========== -->
 
         <section id="aboutme" class="container">
@@ -318,26 +312,26 @@
 
               <!-- Item 1 -->
               <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
-                <div class="chart" data-percent="90"><span class="circle-icon linea-basic-gear"></span></div>
+                <div class="chart" data-percent="100"><span class="circle-icon linea-basic-gear"></span></div>
                 <span class="circle-text">Python Language</span>
               </div>
 
               <!-- Item 2 -->
               <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s">
-                <div class="chart" data-percent="85"><span class="circle-icon linea-basic-display"></span></div>
-                <span class="circle-text">C++ Language</span>
+                <div class="chart" data-percent="100"><span class="circle-icon linea-basic-display"></span></div>
+                <span class="circle-text">Java Language</span>
               </div>
 
               <!-- Item 3 -->
               <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s">
-                <div class="chart" data-percent="80"><span class="circle-icon linea-basic-photo"></span></div>
-                <span class="circle-text">C# Language</span>
+                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-photo"></span></div>
+                <span class="circle-text">C++ Language</span>
               </div>
 
               <!-- Item 4 -->
               <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
-                <div class="chart" data-percent="80"><span class="circle-icon linea-basic-star"></span></div>
-                <span class="circle-text">Java Language</span>
+                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-star"></span></div>
+                <span class="circle-text">C Language</span>
               </div>
 
             </div><!-- / .row -->
@@ -368,68 +362,95 @@
           <div class="row">
             <div id="pfolio">
 
-              <!-- Item 1 -->
+              <!-- Item -->
+              <div class="col-md-4 portfolio-item hover-side others">
+                <figure>
+                  <img src="assets/images/asl.jpg" alt="ASL Application">
+                  <figcaption>
+                    <h5 class="hover-heading">American Sign Language</h5>
+                    <p class="hover-text">An Orbital NUS Project involving computer vision and machine learning to translate and teach ASL to a greater audience.</p>
+                    <a href="https://github.com/ooawagaeri/orbital-asl-application" class="fa fa-github portfolio-github"></a>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <!-- Item -->
               <div class="col-md-4 portfolio-item hover-side websites">
                 <figure>
                   <img src="assets/images/django-admin.jpg" alt="Django Web Form">
                   <figcaption>
                     <h5 class="hover-heading">Django Web Form</h5>
-                    <p class="hover-text">A Python based Web framework deployed on Amazon Elastic Beanstalk. This form allowed for internal and secure circulations of client data through shareable URLs.</p>
+                    <p class="hover-text">A Python Web framework deployed on Amazon Elastic Beanstalk. Allows for the internal and secure circulations of data.</p>
                   </figcaption>
                 </figure>
               </div><!-- / .portfolio-item -->
 
-              <!-- Item 2 -->
+              <!-- Item -->
               <div class="col-md-4 portfolio-item hover-side websites">
                 <figure>
                   <img src="assets/images/google-cloud-speech-to-text.jpg" alt="Google Cloud Speech-To-Text">
                   <figcaption>
-                    <h5 class="hover-heading">Google Cloud Speech-To-Text</h5>
-                    <p class="hover-text">Using Google Cloud Platform, it is a website bulit with Django on Amazon Elastic Beanstalk. Transcribes user uploaded audio files and uses Google's Speech-to-Text API.</p>
+                    <h5 class="hover-heading">Google Cloud STT</h5>
+                    <p class="hover-text">A Django website deployed on Amazon Elastic Beanstalk. Transcribes uploaded audio files using Google's Speech-to-Text API.</p>
                   </figcaption>
                 </figure>
               </div><!-- / .portfolio-item -->
 
-              <!-- Item 3 -->
+              <!-- Item -->
               <div class="col-md-4 portfolio-item hover-side websites others">
                 <figure>
                   <img src="assets/images/kaldi.jpg" alt="Kaldi Speech Recognition">
                   <figcaption>
                     <h5 class="hover-heading">Kaldi Speech Recognition</h5>
-                    <p class="hover-text">An open source toolkit written in C++. Using this, we made a Node.js based webpage which was trained using a custom neural network, and custom speech processing parameters to transcribe voice recordings.</p>
+                    <p class="hover-text">An open source toolkit written in C++. Using Node.js, a custom neural network, and speech processing parameters to transcribe recordings.</p>
                   </figcaption>
                 </figure>
               </div><!-- / .portfolio-item -->
 
-              <!-- Item 4 -->
+              <!-- Item -->
               <div class="col-md-4 portfolio-item hover-side others">
                 <figure>
                   <img src="assets/images/assassinv.jpg" alt="Assassin Valkyrie">
                   <figcaption>
                     <h5 class="hover-heading">Assassin Valkyrie</h5>
-                    <p class="hover-text">A desktop application with DirectX. A team of us students made our own game through the use of C++, pixel art and mathematical calculations to make a stealth, assassin, platformer.</p>
-                  </figcaption>
+                    <p class="hover-text">A desktop application with DirectX. Using C++, pixel art and mathematical calculations to make a stealth, assassin, platformer game.</p>
+                    <a href="https://github.com/ooawagaeri/AssassinValkyrie" class="fa fa-github portfolio-github"></a>
+                </figcaption>
                 </figure>
               </div><!-- / .portfolio-item -->
 
-              <!-- Item 5 -->
+              <!-- Item -->
               <div class="col-md-4 portfolio-item hover-side others">
                 <figure>
                   <img src="assets/images/letitrain.jpg" alt="Let It Rain">
                   <figcaption>
                     <h5 class="hover-heading">Let It Rain</h5>
-                    <p class="hover-text">A desktop application with DirectX. A pair of us students made our own game through the use of C++, pixel art and mathematical calculations to make a bullet hell plane shooter.</p>
+                    <p class="hover-text">A desktop application with DirectX. Using C++, pixel art and mathematical calculations to make a bullet hell game.</p>
+                    <a href="https://github.com/ooawagaeri/LetItRain" class="fa fa-github portfolio-github"></a>
                   </figcaption>
                 </figure>
               </div><!-- / .portfolio-item -->
 
-              <!-- Item 6 -->
+              <!-- Item -->
               <div class="col-md-4 portfolio-item hover-side photography">
                 <figure>
                   <img src="assets/images/kyoto.jpg" alt="Kyoto, Japan">
                   <figcaption>
                     <h5 class="hover-heading">Kyoto, Japan</h5>
-                    <p class="hover-text">2019, Kansai region, Japan. Travel photography around the city of Kyoto as my family and I roam the streets in search of fun, food and photos.</p>
+                    <p class="hover-text">2019, Kansai region. Travel photography of the city of Kyoto.</p>
+                    <a href="https://ooawagaeri.myportfolio.com/kyoto" class="fa fa-camera portfolio-camera"></a>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <!-- Item -->
+              <div class="col-md-4 portfolio-item hover-side photography">
+                <figure>
+                  <img src="assets/images/wedding.jpg" alt="Kyoto, Japan">
+                  <figcaption>
+                    <h5 class="hover-heading">Fullerton, Singapore</h5>
+                    <p class="hover-text">2017, Fullerton Hotel. Wedding photography of a beautiful courtship between hushand and wife.</p>
+                    <a href="https://ooawagaeri.myportfolio.com/sumitro-alicia" class="fa fa-camera portfolio-camera"></a>
                   </figcaption>
                 </figure>
               </div><!-- / .portfolio-item -->
@@ -447,9 +468,9 @@
               <span class="subheading">"The path I see before me, I know only I can change it."</span>
               <ul class="social-links">
                 <li><a href="https://www.facebook.com/timothy.chua.94"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/Ooawagaeri24"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/timothychua19/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/timothychuawj/"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://www.youtube.com/channel/UCW64zhYrRf86_Py2hQr8rRg?view_as=subscriber"><i class="fa fa-youtube-play"></i></a></li>
+                <li><a href="https://github.com/ooawagaeri"><i class="fa fa-github"></i></a></li>
               </ul>
             </div>
           </div><!-- / .container -->
@@ -496,6 +517,5 @@
 
         <!-- Peronal JS -->
         <script src="assets/js/main.js"></script>
-        <script src="assets/contact-form/ajax-cf-1.js"></script>
     </body>
 </html>

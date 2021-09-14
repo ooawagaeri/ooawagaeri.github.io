@@ -10244,4 +10244,24 @@ form .input-error-2:focus {
   background: #f8f8f8;
 }
 
+.portfolio-github {
+  font-size: 20px;
+  padding-top: 10px;
+  color: #777;
+}
+
+.portfolio-github:hover {
+  color: #ececec;
+}
+
+.portfolio-camera {
+  font-size: 15px;
+  padding-top: 10px;
+  color: #777;
+}
+
+.portfolio-camera:hover {
+  color: #ececec;
+}
+
 /*# sourceMappingURL=main.css.map */

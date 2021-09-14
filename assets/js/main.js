@@ -811,9 +811,6 @@
 		var year = new Date().getFullYear();
 		var age = year - 1998;
 
-		console.log(year);
-		console.log(age);
-
 		var currentParagraph = $('#year').text();
 		currentParagraph = currentParagraph.replace("[YEAR]", year);
 		currentParagraph = currentParagraph.replace("[AGE]", age);
