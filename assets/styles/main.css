@@ -10264,4 +10264,9 @@ form .input-error-2:focus {
   color: #ececec;
 }
 
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=main.css.map */

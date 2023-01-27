@@ -1119,4 +1119,77 @@
   }
 }
 
+/* ---- Hover Side Panel - Responsive Effect ---- */
+
+@media (max-width: 1600px) {
+  .portfolio-item.hover-side figure:hover img,
+  .portfolio-item.hover-side figure:active img {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  
+  .portfolio-item.hover-side figure figcaption {
+    padding: 40px 30px;
+    width: 50%;
+    background: #111;
+    opacity: 1;
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+    -webkit-transition: -webkit-transform 0.4s;
+            transition: transform 0.4s;
+  } 
+}
+
+@media (max-width: 1400px) {
+  .portfolio-item.hover-side figure:hover img,
+  .portfolio-item.hover-side figure:active img {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform: translateX(70%);
+        -ms-transform: translateX(70%);
+            transform: translateX(70%);
+  }
+  
+  .portfolio-item.hover-side figure figcaption {
+    padding: 40px 30px;
+    width: 70%;
+    background: #111;
+    opacity: 1;
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+    -webkit-transition: -webkit-transform 0.4s;
+            transition: transform 0.4s;
+  } 
+}
+
+@media (max-width: 500px) {
+  .portfolio-item.hover-side figure:hover img,
+  .portfolio-item.hover-side figure:active img {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform: translateX(84%);
+        -ms-transform: translateX(84%);
+            transform: translateX(84%);
+  }
+
+  .portfolio-item.hover-side figure figcaption {
+    padding: 40px 30px;
+    width: 84%;
+    background: #111;
+    opacity: 1;
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+    -webkit-transition: -webkit-transform 0.4s;
+            transition: transform 0.4s;
+  } 
+}
 /*# sourceMappingURL=responsive.css.map */
